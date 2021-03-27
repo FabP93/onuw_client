@@ -1,6 +1,6 @@
 import io from "socket.io-client";
 import { messageTypes } from "./types";
-const socket = io("wss://onuw-server-node.herokuapp.com/");
+const socket = io("wss://onuw-fbp-server.herokuapp.com/");https://onuw-fbp-server.herokuapp.com/
 
 const init = store => {
   // add listeners to socket messages so we can re-dispatch them as actions
